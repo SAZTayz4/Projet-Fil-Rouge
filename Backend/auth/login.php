@@ -19,7 +19,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_SESSION['utilisateur_id'] = $user['id'];
                 $_SESSION['user_role'] = $user['role'];
                 $_SESSION['success'] = 'Connexion réussie !';
-                header('Location: ../../Frontend/HTML/home.php');
+                
+                // Rediriger vers la page admin si c'est un administrateur
+                if ($user['role'] === 'admin') {
+                    header('Location: ../admin/dashboard.php');
+                } else {
+                    header('Location: ../../Frontend/HTML/home.php');
+                }
                 exit;
             } else {
                 $_SESSION['error'] = 'Email ou mot de passe incorrect.';
