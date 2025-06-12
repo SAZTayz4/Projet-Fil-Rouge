@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check MyKicks - Sélection de la langue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/langues.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">CHECK MYKICKS</div>
+    </header>
+
+    <div class="language-container">
+        
+        <div class="select-group">
+            <label class="select-label">Pays</label>
+            <div class="select-wrapper">
+                <select id="country" class="custom-select" onchange="updateLanguages()">
+                    <option value="">Sélectionnez votre pays</option>
+                    <option value="FR">France</option>
+                    <option value="US">United States</option>
+                    <option value="GB">United Kingdom</option>
+                    <option value="DE">Deutschland</option>
+                    <option value="ES">España</option>
+                    <option value="IT">Italia</option>
+                    <option value="JP">日本</option>
+                    <option value="KR">대한민국</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="select-group">
+            <label class="select-label">Langue</label>
+            <div class="select-wrapper">
+                <select id="language" class="custom-select">
+                    <option value="">Sélectionnez votre langue</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="save-language">
+            <input type="checkbox" id="saveLanguage">
+            <label for="saveLanguage">Enregistrer mes préférences</label>
+        </div>
+
+        <div class="button-container">
+            <button id="continueButton" class="home-button" onclick="saveLanguage()">
+                Continuer
+            </button>
+        </div>
+    </div>
+
+    <script src="../JS/langues.js"></script>
+</body>
+</html>

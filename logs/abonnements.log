@@ -1,0 +1,76 @@
+[2025-06-11 07:49:38][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 07:49:38][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 07:49:38][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 07:49:38][CRITICAL] Erreur critique lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 07:55:48][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 07:55:48][ERROR] Abonnement non trouvé - ID: 1 - Utilisateur: 1
+[2025-06-11 07:57:21][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 07:57:21][CRITICAL] Erreur critique lors de l'annulation de l'abonnement - SQLSTATE[42S02]: Base table or view not found: 1146 La table 'checkmykicks.souscriptions' n'existe pas
+[2025-06-11 07:58:15][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 07:58:15][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 07:58:15][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 07:58:15][CRITICAL] Erreur critique lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:00:36][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:00:36][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:00:36][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:00:36][CRITICAL] Erreur critique lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:02:14][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:02:14][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:02:14][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:02:14][CRITICAL] Erreur critique lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:06:37][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:06:37][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:06:37][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:06:37][CRITICAL] Erreur critique lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:07:02][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:07:02][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:07:02][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:07:02][CRITICAL] Erreur critique lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:13:37][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:13:37][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:13:38][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:13:38][CRITICAL] Erreur critique lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:14:26][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:14:26][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:14:26][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:14:26][CRITICAL] Erreur critique lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:16:43][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:16:43][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:16:43][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:16:43][CRITICAL] Erreur critique lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:17:27][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:17:27][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:17:27][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:19:18][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:19:18][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:19:18][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'date_debut' inconnu dans field list
+[2025-06-11 08:20:51][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:20:51][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:20:51][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'raison_annulation' inconnu dans field list
+[2025-06-11 08:20:52][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:20:52][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:20:52][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'raison_annulation' inconnu dans field list
+[2025-06-11 08:20:53][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:20:53][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:20:53][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'raison_annulation' inconnu dans field list
+[2025-06-11 08:20:53][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:20:53][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:20:53][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'raison_annulation' inconnu dans field list
+[2025-06-11 08:20:59][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:20:59][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:20:59][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'raison_annulation' inconnu dans field list
+[2025-06-11 08:23:27][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:23:27][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:23:27][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'raison_annulation' inconnu dans field list
+[2025-06-11 08:23:28][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:23:28][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:23:28][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'raison_annulation' inconnu dans field list
+[2025-06-11 08:23:38][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:23:38][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:23:38][ERROR] Erreur lors de l'annulation de l'abonnement - SQLSTATE[42S22]: Column not found: 1054 Champ 'raison_annulation' inconnu dans field list
+[2025-06-11 08:24:46][INFO] Début de l'annulation d'abonnement - ID: 1 - Utilisateur: 1
+[2025-06-11 08:24:46][INFO] Détails de l'abonnement trouvé - Type: intermediaire - Date fin: 2025-07-11 09:19:51
+[2025-06-11 08:24:46][SUCCESS] Annulation d'abonnement réussie - ID: 1
+[2025-06-11 11:51:01][INFO] Début de l'annulation d'abonnement - ID: 2 - Utilisateur: 1
+[2025-06-11 11:51:01][INFO] Détails de l'abonnement trouvé - Type: avance - Date fin: 2025-07-11 12:46:20
+[2025-06-11 11:51:01][SUCCESS] Annulation d'abonnement réussie - ID: 2

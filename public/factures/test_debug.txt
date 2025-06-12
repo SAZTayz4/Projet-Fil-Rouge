@@ -1,0 +1,18 @@
+$pdfDir = $_SERVER['DOCUMENT_ROOT'] . '/ProjetFileRouge/public/factures';
+
+file_put_contents($pdfDir . '/test_php.txt', 'test via PHP');
+
+try {
+    require_once __DIR__ . '/../../vendor/autoload.php';
+    $pdf = new TCPDF();
+    $pdf->AddPage();
+    $pdf->SetFont('helvetica', '', 12);
+    $pdf->Write(0, 'Test PDF');
+    $pdf->Output($pdfDir . '/test_tcpdf.pdf', 'F');
+    file_put_contents(__DIR__ . '/debug_traiter.log', "Après génération PDF\n", FILE_APPEND);
+} catch (Exception $e) {
+    file_put_contents(__DIR__ . '/debug_traiter.log', "ERREUR PDF : " . $e->getMessage() . "\n", FILE_APPEND);
+    echo '<h1>Erreur lors de la génération du PDF</h1>';
+    echo '<pre>' . htmlspecialchars($e->getMessage()) . '</pre>';
+    exit;
+}

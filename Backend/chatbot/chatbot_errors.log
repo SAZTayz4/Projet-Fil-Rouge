@@ -1,0 +1,257 @@
+[11-Jun-2025 12:38:57 UTC] Message reçu: {"message":"salut"}
+[11-Jun-2025 12:38:57 UTC] Tentative de connexion à l'API ngrok...
+[11-Jun-2025 12:38:57 UTC] URL de l'API: https://checkmyckicks.ngrok.app/chatbot
+[11-Jun-2025 12:38:57 UTC] Données envoyées: {"message":"salut"}
+[11-Jun-2025 12:38:57 UTC] Envoi de la requête à l'API...
+[11-Jun-2025 12:39:00 UTC] Log verbose cURL: *   Trying 3.125.209.94:443...
+* Connected to checkmyckicks.ngrok.app (3.125.209.94) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+* SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.ngrok.app
+*  start date: Jun  2 18:15:44 2025 GMT
+*  expire date: Aug 31 18:15:43 2025 GMT
+*  issuer: C=US; O=Let's Encrypt; CN=E5
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* Using HTTP2, server supports multiplexing
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* h2h3 [:method: POST]
+* h2h3 [:path: /chatbot]
+* h2h3 [:scheme: https]
+* h2h3 [:authority: checkmyckicks.ngrok.app]
+* h2h3 [content-type: application/json]
+* h2h3 [accept: application/json]
+* h2h3 [content-length: 19]
+* Using Stream ID: 1 (easy handle 0x2e999250)
+> POST /chatbot HTTP/2
+Host: checkmyckicks.ngrok.app
+content-type: application/json
+accept: application/json
+content-length: 19
+
+* We are completely uploaded and fine
+* Connection state changed (MAX_CONCURRENT_STREAMS == 250)!
+< HTTP/2 200 
+< access-control-allow-origin: *
+< content-type: application/json
+< date: Wed, 11 Jun 2025 12:39:00 GMT
+< server: Werkzeug/3.1.3 Python/3.11.13
+< content-length: 198
+< 
+* Connection #0 to host checkmyckicks.ngrok.app left intact
+
+[11-Jun-2025 12:39:00 UTC] Code HTTP reçu: 200
+[11-Jun-2025 12:39:00 UTC] Réponse brute: {
+  "matches": [],
+  "reply": "Salut ! Tu cherches des sneakers ou tu as une id\u00e9e pr\u00e9cise en t\u00eate ? Dis-moi ce qui t'int\u00e9resse, je peux te proposer des options adapt\u00e9es."
+}
+
+[11-Jun-2025 12:39:00 UTC] Réponse formatée: {"reply":"Salut ! Tu cherches des sneakers ou tu as une id\u00e9e pr\u00e9cise en t\u00eate ? Dis-moi ce qui t'int\u00e9resse, je peux te proposer des options adapt\u00e9es.","matches":[]}
+[11-Jun-2025 12:39:15 UTC] Message reçu: {"message":"t'as des nikes ?"}
+[11-Jun-2025 12:39:15 UTC] Tentative de connexion à l'API ngrok...
+[11-Jun-2025 12:39:15 UTC] URL de l'API: https://checkmyckicks.ngrok.app/chatbot
+[11-Jun-2025 12:39:15 UTC] Données envoyées: {"message":"t'as des nikes ?"}
+[11-Jun-2025 12:39:15 UTC] Envoi de la requête à l'API...
+[11-Jun-2025 12:39:17 UTC] Log verbose cURL: *   Trying 3.125.209.94:443...
+* Connected to checkmyckicks.ngrok.app (3.125.209.94) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+* SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.ngrok.app
+*  start date: Jun  2 18:15:44 2025 GMT
+*  expire date: Aug 31 18:15:43 2025 GMT
+*  issuer: C=US; O=Let's Encrypt; CN=E5
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* Using HTTP2, server supports multiplexing
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* h2h3 [:method: POST]
+* h2h3 [:path: /chatbot]
+* h2h3 [:scheme: https]
+* h2h3 [:authority: checkmyckicks.ngrok.app]
+* h2h3 [content-type: application/json]
+* h2h3 [accept: application/json]
+* h2h3 [content-length: 30]
+* Using Stream ID: 1 (easy handle 0x2e999250)
+> POST /chatbot HTTP/2
+Host: checkmyckicks.ngrok.app
+content-type: application/json
+accept: application/json
+content-length: 30
+
+* We are completely uploaded and fine
+* Connection state changed (MAX_CONCURRENT_STREAMS == 250)!
+< HTTP/2 200 
+< access-control-allow-origin: *
+< content-type: application/json
+< date: Wed, 11 Jun 2025 12:39:17 GMT
+< server: Werkzeug/3.1.3 Python/3.11.13
+< content-length: 2257
+< 
+* Connection #0 to host checkmyckicks.ngrok.app left intact
+
+[11-Jun-2025 12:39:17 UTC] Code HTTP reçu: 200
+[11-Jun-2025 12:39:17 UTC] Réponse brute: {
+  "matches": [
+    {
+      "article_image": "https://images1.vinted.net/t/02_013dd_syJBStUwSAGvhA15rq8BDoG8/310x430/1749644056.jpeg?s=557e1c640db6a5c37ef63448a87e54da1aa1e895",
+      "link": "https://www.vinted.fr/items/6496524973-scarpe-nike-numero-39?referrer=catalog",
+      "member_link": null,
+      "name": "Nike",
+      "price": "4,00\u00a0\u20ac",
+      "profile_image": null,
+      "size": "39 \u00b7 Bon \u00e9tat",
+      "username": null
+    },
+    {
+      "article_image": "https://images1.vinted.net/t/01_01e93_GcsWwQ2J4Vt7DSH1zwkoSpAP/310x430/1749644114.jpeg?s=2177ae83cbe23b09c6edaded8136ea400d424c89",
+      "link": "https://www.vinted.fr/items/6496531252-air-force-one-sage?referrer=catalog",
+      "member_link": null,
+      "name": "Nike",
+      "price": "100,00\u00a0\u20ac",
+      "profile_image": null,
+      "size": "36.5 \u00b7 Tr\u00e8s bon \u00e9tat",
+      "username": null
+    },
+    {
+      "article_image": "https://images1.vinted.net/t/02_0145c_bhsU3y98kEcVipaLXvHJB47s/310x430/1749644161.jpeg?s=c18118efce98981cbde220f61062b96c34c28163",
+      "link": "https://www.vinted.fr/items/6496536315-huarache-femme?referrer=catalog",
+      "member_link": null,
+      "name": "Nike",
+      "price": "20,00\u00a0\u20ac",
+      "profile_image": null,
+      "size": "36.5 \u00b7 Tr\u00e8s bon \u00e9tat",
+      "username": null
+    },
+    {
+      "article_image": "https://images1.vinted.net/t/03_000a4_Gabuu3T3NHnA7dzyY7dwtmFo/310x430/1749644096.jpeg?s=5770ae0453077c7ba853f5b21e7dad093404901a",
+      "link": "https://www.vinted.fr/items/6496529392-nike-blazer?referrer=catalog",
+      "member_link": null,
+      "name": "Nike",
+      "price": "50,00\u00a0\u20ac",
+      "profile_image": null,
+      "size": "38 \u00b7 Bon \u00e9tat",
+      "username": null
+    }
+  ],
+  "reply": "Oui, j'ai plusieurs Nike disponibles. Je te recommande ces options : \n\n- Nike \u00e0 4,00 \u20ac en bon \u00e9tat, taille 39\n- Nike \u00e0 20,00 \u20ac en tr\u00e8s bon \u00e9tat, taille 36.5\n- Nike \u00e0 50,00 \u20ac en bon \u00e9tat, taille 38\n- Nike \u00e0 55,00 \u20ac en tr\u00e8s bon \u00e9tat, taille 37.5\n- Nike \u00e0 60,00 \u20ac en neuf avec \u00e9tiquette, taille 36.5\n\nVoici les produits correspondants : [18, 20, 38, 26, 120]"
+}
+
+[11-Jun-2025 12:39:17 UTC] Réponse formatée: {"reply":"Oui, j'ai plusieurs Nike disponibles. Je te recommande ces options : \n\n- Nike \u00e0 4,00 \u20ac en bon \u00e9tat, taille 39\n- Nike \u00e0 20,00 \u20ac en tr\u00e8s bon \u00e9tat, taille 36.5\n- Nike \u00e0 50,00 \u20ac en bon \u00e9tat, taille 38\n- Nike \u00e0 55,00 \u20ac en tr\u00e8s bon \u00e9tat, taille 37.5\n- Nike \u00e0 60,00 \u20ac en neuf avec \u00e9tiquette, taille 36.5\n\nVoici les produits correspondants : [18, 20, 38, 26, 120]","matches":[{"article_image":"https:\/\/images1.vinted.net\/t\/02_013dd_syJBStUwSAGvhA15rq8BDoG8\/310x430\/1749644056.jpeg?s=557e1c640db6a5c37ef63448a87e54da1aa1e895","link":"https:\/\/www.vinted.fr\/items\/6496524973-scarpe-nike-numero-39?referrer=catalog","member_link":null,"name":"Nike","price":"4,00\u00a0\u20ac","profile_image":null,"size":"39 \u00b7 Bon \u00e9tat","username":null},{"article_image":"https:\/\/images1.vinted.net\/t\/01_01e93_GcsWwQ2J4Vt7DSH1zwkoSpAP\/310x430\/1749644114.jpeg?s=2177ae83cbe23b09c6edaded8136ea400d424c89","link":"https:\/\/www.vinted.fr\/items\/6496531252-air-force-one-sage?referrer=catalog","member_link":null,"name":"Nike","price":"100,00\u00a0\u20ac","profile_image":null,"size":"36.5 \u00b7 Tr\u00e8s bon \u00e9tat","username":null},{"article_image":"https:\/\/images1.vinted.net\/t\/02_0145c_bhsU3y98kEcVipaLXvHJB47s\/310x430\/1749644161.jpeg?s=c18118efce98981cbde220f61062b96c34c28163","link":"https:\/\/www.vinted.fr\/items\/6496536315-huarache-femme?referrer=catalog","member_link":null,"name":"Nike","price":"20,00\u00a0\u20ac","profile_image":null,"size":"36.5 \u00b7 Tr\u00e8s bon \u00e9tat","username":null},{"article_image":"https:\/\/images1.vinted.net\/t\/03_000a4_Gabuu3T3NHnA7dzyY7dwtmFo\/310x430\/1749644096.jpeg?s=5770ae0453077c7ba853f5b21e7dad093404901a","link":"https:\/\/www.vinted.fr\/items\/6496529392-nike-blazer?referrer=catalog","member_link":null,"name":"Nike","price":"50,00\u00a0\u20ac","profile_image":null,"size":"38 \u00b7 Bon \u00e9tat","username":null}]}
+[11-Jun-2025 12:41:08 UTC] Message reçu: {"message":"salut"}
+[11-Jun-2025 12:41:08 UTC] Tentative de connexion à l'API ngrok...
+[11-Jun-2025 12:41:08 UTC] URL de l'API: https://checkmyckicks.ngrok.app/chatbot
+[11-Jun-2025 12:41:08 UTC] Données envoyées: {"message":"salut"}
+[11-Jun-2025 12:41:08 UTC] Envoi de la requête à l'API...
+[11-Jun-2025 12:41:12 UTC] Code HTTP reçu: 200
+[11-Jun-2025 12:41:12 UTC] Réponse brute: {
+  "matches": [],
+  "reply": "Salut ! Tu cherches quoi en sneakers ? Des marques, une taille ou un budget pr\u00e9cis ? Je peux te proposer quelques bonnes options selon ce que tu veux."
+}
+
+[11-Jun-2025 12:41:12 UTC] Réponse formatée: {"reply":"Salut ! Tu cherches quoi en sneakers ? Des marques, une taille ou un budget pr\u00e9cis ? Je peux te proposer quelques bonnes options selon ce que tu veux.","matches":[]}
+[11-Jun-2025 12:41:49 UTC] Message reçu: {"message":"ca va ?"}
+[11-Jun-2025 12:41:49 UTC] Tentative de connexion à l'API ngrok...
+[11-Jun-2025 12:41:49 UTC] URL de l'API: https://checkmyckicks.ngrok.app/chatbot
+[11-Jun-2025 12:41:49 UTC] Données envoyées: {"message":"ca va ?"}
+[11-Jun-2025 12:41:49 UTC] Envoi de la requête à l'API...
+[11-Jun-2025 12:41:51 UTC] Code HTTP reçu: 200
+[11-Jun-2025 12:41:51 UTC] Réponse brute: {
+  "matches": [],
+  "reply": "\u00c7a va bien, merci ! Tu cherches quoi comme sneakers aujourd'hui ? Dis-moi ce que tu veux en termes de marque, taille, prix ou \u00e9tat, je t'aide \u00e0 trouver la perle rare."
+}
+
+[11-Jun-2025 12:41:51 UTC] Réponse formatée: {"reply":"\u00c7a va bien, merci ! Tu cherches quoi comme sneakers aujourd'hui ? Dis-moi ce que tu veux en termes de marque, taille, prix ou \u00e9tat, je t'aide \u00e0 trouver la perle rare.","matches":[]}
+[11-Jun-2025 12:42:40 UTC] Message reçu: {"message":"salut"}
+[11-Jun-2025 12:42:40 UTC] Tentative de connexion à l'API ngrok...
+[11-Jun-2025 12:42:40 UTC] URL de l'API: https://checkmyckicks.ngrok.app/chatbot
+[11-Jun-2025 12:42:40 UTC] Données envoyées: {"message":"salut"}
+[11-Jun-2025 12:42:40 UTC] Envoi de la requête à l'API...
+[11-Jun-2025 12:42:42 UTC] Code HTTP reçu: 200
+[11-Jun-2025 12:42:42 UTC] Réponse brute: {
+  "matches": [],
+  "reply": "Salut ! Tu cherches quoi en sneakers ? Tu as une marque, une taille ou un budget en t\u00eate ?"
+}
+
+[11-Jun-2025 12:42:42 UTC] Réponse formatée: {"reply":"Salut ! Tu cherches quoi en sneakers ? Tu as une marque, une taille ou un budget en t\u00eate ?","matches":[]}
+[11-Jun-2025 12:42:50 UTC] Message reçu: {"message":"t'as des nike ?"}
+[11-Jun-2025 12:42:50 UTC] Tentative de connexion à l'API ngrok...
+[11-Jun-2025 12:42:50 UTC] URL de l'API: https://checkmyckicks.ngrok.app/chatbot
+[11-Jun-2025 12:42:50 UTC] Données envoyées: {"message":"t'as des nike ?"}
+[11-Jun-2025 12:42:50 UTC] Envoi de la requête à l'API...
+[11-Jun-2025 12:42:52 UTC] Code HTTP reçu: 200
+[11-Jun-2025 12:42:52 UTC] Réponse brute: {
+  "matches": [],
+  "reply": "Oui, j'ai plusieurs Nike en vente. Tu cherches une taille ou un \u00e9tat particulier ?"
+}
+
+[11-Jun-2025 12:42:52 UTC] Réponse formatée: {"reply":"Oui, j'ai plusieurs Nike en vente. Tu cherches une taille ou un \u00e9tat particulier ?","matches":[]}
+[11-Jun-2025 12:42:57 UTC] Message reçu: {"message":"en 41 stp"}
+[11-Jun-2025 12:42:57 UTC] Tentative de connexion à l'API ngrok...
+[11-Jun-2025 12:42:57 UTC] URL de l'API: https://checkmyckicks.ngrok.app/chatbot
+[11-Jun-2025 12:42:57 UTC] Données envoyées: {"message":"en 41 stp"}
+[11-Jun-2025 12:42:57 UTC] Envoi de la requête à l'API...
+[11-Jun-2025 12:43:00 UTC] Code HTTP reçu: 200
+[11-Jun-2025 12:43:00 UTC] Réponse brute: {
+  "matches": [
+    {
+      "article_image": "https://images1.vinted.net/t/01_02224_tAuNwPiRkwc5nDA6cVPk1tXV/310x430/1749643850.jpeg?s=a4c8475b3a64adc8765b5b6c271e413edb3f80ed",
+      "link": "https://www.vinted.fr/items/6496503007-nike-air-neuf-jamais-porte?referrer=catalog",
+      "member_link": null,
+      "name": "Nike",
+      "price": "40,00\u00a0\u20ac",
+      "profile_image": null,
+      "size": "41 \u00b7 Neuf sans \u00e9tiquette",
+      "username": null
+    },
+    {
+      "article_image": "https://images1.vinted.net/t/03_01a88_2Mrgo2bdNW8C58kb2KHVWa3y/310x430/1749644342.jpeg?s=9f019097faff3d1c326ca17d7699e3e1e533d125",
+      "link": "https://www.vinted.fr/items/6496555818-baskets-fille-femme?referrer=catalog",
+      "member_link": null,
+      "name": "Puma",
+      "price": "8,00\u00a0\u20ac",
+      "profile_image": null,
+      "size": "41 \u00b7 Bon \u00e9tat",
+      "username": null
+    },
+    {
+      "article_image": "https://images1.vinted.net/t/04_012cb_oeDxDUvU2Cv4gu8TnHJ3DrpD/310x430/1749644077.jpeg?s=3f2aba46a86a68f92414214ce7a53f2415fc449b",
+      "link": "https://www.vinted.fr/items/6496527264-converse-femme?referrer=catalog",
+      "member_link": null,
+      "name": "Converse",
+      "price": "40,00\u00a0\u20ac",
+      "profile_image": null,
+      "size": "38 \u00b7 Tr\u00e8s bon \u00e9tat",
+      "username": null
+    },
+    {
+      "article_image": "https://images1.vinted.net/t/03_00f62_nGnsB3mxQzNVd8j3BvE3jBy5/310x430/1749644213.jpeg?s=bc883511f8a350ea981b940a9a62667960105199",
+      "link": "https://www.vinted.fr/items/6496541922-nike-initiator?referrer=catalog",
+      "member_link": null,
+      "name": "Nike",
+      "price": "68,00\u00a0\u20ac",
+      "profile_image": null,
+      "size": "41 \u00b7 Tr\u00e8s bon \u00e9tat",
+      "username": null
+    },
+    {
+      "article_image": "https://images1.vinted.net/t/01_0068a_aEFLXrcMWKdtbw3J3EjQ25Le/310x430/1749644254.jpeg?s=510b7b5ac1a1ceedd33a8a5df19bbfc4adb59224",
+      "link": "https://www.vinted.fr/items/6496546359-vans-gr-8?referrer=catalog",
+      "member_link": null,
+      "name": "Vans",
+      "price": "10,00\u00a0\u20ac",
+      "profile_image": null,
+      "size": "39 \u00b7 Bon \u00e9tat",
+      "username": null
+    }
+  ],
+  "reply": "Tu cherches des sneakers en taille 41. J'ai plusieurs options pour toi, notamment des Nike, Vans, Converse, Puma, et d'autres marques en tr\u00e8s bon \u00e9tat ou neuf. Voici quelques suggestions int\u00e9ressantes :  \n\n- Nike \u00e0 40\u20ac (neuf sans \u00e9tiquette)  \n- Vans \u00e0 20\u20ac (bon \u00e9tat)  \n- Converse \u00e0 40\u20ac (tr\u00e8s bon \u00e9tat)  \n- Puma \u00e0 18\u20ac (tr\u00e8s bon \u00e9tat)  \n- Nike \u00e0 68\u20ac (tr\u00e8s bon \u00e9tat)  \n\nDis-moi si tu veux que je te trouve des mod\u00e8les pr\u00e9cis ou dans une gamme de prix sp\u00e9cifique.  \n\n[9, 50, 31, 17, 32]"
+}
+
+[11-Jun-2025 12:43:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getConnection() in C:\wamp\www\ProjetFileRouge\Backend\chatbot\chatbot.php:103
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\ProjetFileRouge\Backend\chatbot\chatbot.php on line 103

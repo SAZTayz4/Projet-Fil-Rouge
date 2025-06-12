@@ -1,0 +1,122 @@
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+ini_set('memory_limit', '512M');
+set_time_limit(60);
+
+if (!class_exists('TCPDF')) {
+    die('TCPDF n\'est pas chargé ! Vérifie l\'autoload Composer.');
+}
+
+2025-06-09 15:26:25 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+Avant génération PDF
+2025-06-09 15:26:27 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+Avant génération PDF
+2025-06-09 15:28:07 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+Avant génération PDF
+2025-06-09 15:35:08 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+Avant génération PDF
+2025-06-09 15:37:01 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+Avant génération PDF
+2025-06-09 15:38:32 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+Avant génération PDF
+
+try {
+    $pdf = new TCPDF();
+    $pdf->AddPage();
+    $pdf->SetFont('helvetica', '', 12);
+    $pdf->Write(0, 'Test PDF');
+    $pdf->Output($pdfPath, 'F');
+    file_put_contents(__DIR__ . '/debug_traiter.log', "Après génération PDF\n", FILE_APPEND);
+} catch (Exception $e) {
+    file_put_contents(__DIR__ . '/debug_traiter.log', "ERREUR PDF : " . $e->getMessage() . "\n", FILE_APPEND);
+    echo '<h1>Erreur lors de la génération du PDF</h1>';
+    echo '<pre>' . htmlspecialchars($e->getMessage()) . '</pre>';
+    exit;
+}
+2025-06-09 15:40:49 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+Avant génération PDF
+2025-06-09 15:41:46 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+Avant génération PDF
+2025-06-09 15:43:31 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+Avant génération PDF
+
+file_put_contents('test_debug.txt', 'debug');
+echo 'OK';
+2025-06-09 15:47:09 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+Avant génération PDF
+2025-06-09 17:13:18 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+Avant génération PDF
+2025-06-09 17:20:08 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+2025-06-09 17:24:08 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique
+2025-06-09 17:25:36 - Début script
+Après récupération utilisateur
+Après récupération abonnement
+Après création paiement
+Après update abonnement utilisateur
+Après création historique

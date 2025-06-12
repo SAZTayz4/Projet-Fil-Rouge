@@ -1,0 +1,10 @@
+# framework:
+#     default_locale: fr
+#     enabled_locales: ['fr', 'en', 'es']
+#     translator:
+#         default_path: '%kernel.project_dir%/translations'
+#         fallbacks:
+#             - fr
+#         paths:
+#             - '%kernel.project_dir%/translations'
+#             - '%kernel.project_dir%/translations.php' 

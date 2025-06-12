@@ -1,0 +1,35 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+# Route par défaut qui redirige vers la page des langues
+
+app_home:
+    path: /
+    controller: App\Controller\HomeController::index
+
+app_login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+
+app_logout:
+    path: /logout
+    controller: App\Controller\SecurityController::logout
+
+app_drops:
+    path: /drops
+    controller: App\Controller\DropsController::index
+
+app_drop_show:
+    path: /drops/{id}
+    controller: App\Controller\DropsController::show
+    requirements:
+        id: '\d+'
+
+# Route pour l'analyse IA
+ia_check:
+    path: /ia-check
+    controller: App\Controller\IACheckController::index
+    methods: GET 

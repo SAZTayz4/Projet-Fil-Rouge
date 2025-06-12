@@ -1,0 +1,642 @@
+DEBUG : 2025-06-10 14:32:07
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 14:35:01
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 14:36:09
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 14:37:39
+METHOD : 
+POST : Array
+(
+)
+
+SESSION : Array
+(
+)
+
+DEBUG : 2025-06-10 14:44:09
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 14:44:09
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 14:44:10
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 14:44:10
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 14:44:10
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 14:44:10
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 14:44:10
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 14:58:01
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 15:00:54
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 15:03:16
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 15:03:22
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [success] => Connexion réussie !
+)
+
+DEBUG : 2025-06-10 15:03:51
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:04:57
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:06:18
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:08:17
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:10:16
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:11:11
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:11:38
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:20:21
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:21:03
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:21:54
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:25:02
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:25:14
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:25:20
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:25:20
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:25:53
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:27:31
+METHOD : 
+POST : Array
+(
+)
+
+SESSION : Array
+(
+)
+
+DEBUG : 2025-06-10 15:27:32
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:27:33
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:38:16
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 15:38:26
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 20:58:48
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 20:58:53
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 20:58:57
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 21:02:13
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 21:03:15
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+)
+
+DEBUG : 2025-06-10 21:05:10
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [abonnement] => Array
+        (
+            [type] => debutant
+            [prix] => 9.99
+            [date_creation] => 2025-06-10 21:03:17
+        )
+
+)
+
+DEBUG : 2025-06-10 21:05:14
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [abonnement] => Array
+        (
+            [type] => avance
+            [prix] => 29.99
+            [date_creation] => 2025-06-10 21:05:14
+        )
+
+)
+
+DEBUG : 2025-06-10 21:05:18
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [abonnement] => Array
+        (
+            [type] => intermediaire
+            [prix] => 19.99
+            [date_creation] => 2025-06-10 21:05:18
+        )
+
+)
+
+DEBUG : 2025-06-10 21:05:22
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [abonnement] => Array
+        (
+            [type] => debutant
+            [prix] => 9.99
+            [date_creation] => 2025-06-10 21:05:22
+        )
+
+)
+
+DEBUG : 2025-06-10 21:05:33
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [abonnement] => Array
+        (
+            [type] => debutant
+            [prix] => 9.99
+            [date_creation] => 2025-06-10 21:05:22
+        )
+
+)
+
+DEBUG : 2025-06-10 21:05:35
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [abonnement] => Array
+        (
+            [type] => debutant
+            [prix] => 9.99
+            [date_creation] => 2025-06-10 21:05:35
+        )
+
+)
+
+DEBUG : 2025-06-10 21:06:26
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [abonnement] => Array
+        (
+            [type] => debutant
+            [prix] => 9.99
+            [date_creation] => 2025-06-10 21:05:35
+        )
+
+)
+
+DEBUG : 2025-06-10 21:06:27
+METHOD : GET
+POST : Array
+(
+)
+
+SESSION : Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [abonnement] => Array
+        (
+            [type] => debutant
+            [prix] => 9.99
+            [date_creation] => 2025-06-10 21:06:27
+        )
+
+)
+

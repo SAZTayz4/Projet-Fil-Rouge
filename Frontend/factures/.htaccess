@@ -1,0 +1,25 @@
+# Protection des fichiers PDF
+<FilesMatch "\.pdf$">
+    # Vérifier si l'utilisateur est connecté
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteCond %{HTTP_COOKIE} !PHPSESSID [NC]
+    RewriteRule .* - [F,L]
+
+    # Empêcher l'indexation des fichiers
+    Header set X-Robots-Tag "noindex, nofollow"
+    
+    # Forcer le téléchargement des PDF
+    ForceType application/pdf
+    Header set Content-Disposition "attachment"
+</FilesMatch>
+
+# Empêcher l'accès direct au dossier
+Options -Indexes
+
+# Protection supplémentaire
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule> 

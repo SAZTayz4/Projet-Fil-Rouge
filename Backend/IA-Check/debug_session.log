@@ -1,0 +1,43 @@
+Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [user_id] => 1
+    [last_facture_pdf] => /ProjetFileRouge/public/factures/FACT-20250611-0027.pdf
+)
+Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [user_id] => 1
+    [last_facture_pdf] => /ProjetFileRouge/public/factures/FACT-20250611-0027.pdf
+    [limitesVerifications] => 10
+    [type_abonnement] => débutant
+)
+Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [user_id] => 1
+    [last_facture_pdf] => /ProjetFileRouge/public/factures/FACT-20250611-0027.pdf
+    [limitesVerifications] => 10
+    [type_abonnement] => débutant
+)
+Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [user_id] => 1
+    [last_facture_pdf] => /ProjetFileRouge/public/factures/FACT-20250611-0027.pdf
+    [limitesVerifications] => 10
+    [type_abonnement] => débutant
+)
+Array
+(
+    [utilisateur_id] => 1
+    [user_role] => client
+    [user_id] => 1
+    [last_facture_pdf] => /ProjetFileRouge/public/factures/FACT-20250611-0027.pdf
+    [limitesVerifications] => 10
+    [type_abonnement] => débutant
+)
