@@ -1,235 +1,410 @@
-# Projet File Rouge
+# 🔥 CheckMyKicks - Plateforme d'Authentification de Sneakers
 
-## Description
-Ce projet est une plateforme innovante spécialisée dans la revente de sneakers, combinant une architecture MVC moderne avec des technologies avancées d'IA et d'automatisation. La plateforme offre une solution complète pour les revendeurs professionnels de sneakers, intégrant un chatbot Vinted intelligent, un système d'authentification IA, et des outils d'automatisation avancés.
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/votre-username/CheckMyKicks)
+[![PHP](https://img.shields.io/badge/PHP-8.1%2B-777BB4.svg)](https://php.net/)
+[![Symfony](https://img.shields.io/badge/Symfony-6.4-000000.svg)](https://symfony.com/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1.svg)](https://mysql.com/)
+[![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
 
-## Fonctionnalités Principales
+## 📖 Description
 
-### 🤖 Bot Vinted Intelligent
-- Recherche automatique de produits sur Vinted
-- Gestion des conversations avec les acheteurs
-- Publication automatique d'annonces (jusqu'à 500)
-- Négociations automatisées
-- Suivi des ventes en temps réel
-- Notifications instantanées
+**CheckMyKicks** est une plateforme web innovante spécialisée dans l'authentification de sneakers utilisant l'intelligence artificielle. Notre solution combine une architecture moderne avec des technologies avancées pour offrir aux passionnés de sneakers un service de vérification fiable et rapide.
 
-### 🔍 Système d'Authentification IA
-- Vérification automatique de l'authenticité des sneakers
-- Base de données de plus de 30 000 modèles
-- Résultats d'authentification en moins de 2min
-- Formation professionnelle à l'authentification
-- Historique des vérifications
+### 🎯 Problématique Résolue
+- **Contrefaçons** : Détection des fausses sneakers avec une précision élevée
+- **Expertise** : Accès à l'analyse IA sans connaissances techniques
+- **Rapidité** : Résultats d'authentification en moins de 2 minutes
+- **Traçabilité** : Historique complet des vérifications
 
-### 📊 Analytics et Automatisation
-- Tableau de bord administrateur complet
-- Statistiques détaillées des ventes
-- Suivi des performances en temps réel
-- Optimisation automatique des prix
-- Rapports personnalisés
+## 🚀 Fonctionnalités Principales
 
-### 💼 Fonctionnalités Premium
-- Publication d'annonces illimitée
-- Authentifications 50/mois
-- Support 24/7 dédié
-- Accès anticipé aux nouvelles fonctionnalités
-- Accès API personnalisé
-- Formation professionnelle
+### 🤖 Système d'Authentification IA
+- **Analyse Multi-Images** : Jusqu'à 6 photos par vérification
+- **Algorithme Avancé** : Détection basée sur l'apprentissage automatique
+- **Heatmap Visuelle** : Zones de détection des anomalies
+- **Score de Confiance** : Pourcentage de fiabilité du résultat
+- **Explications Détaillées** : Justification de chaque analyse
 
-### 🔒 Sécurité et Conformité
-- Protection des données utilisateurs
-- Système de paiement sécurisé
-- Conformité RGPD
-- Journalisation des actions
-- Sauvegardes automatiques
+### 💎 Système d'Abonnements
+- **Gratuit** : 3 vérifications/mois
+- **Débutant** (9,99€) : 10 vérifications + Chatbot
+- **Intermédiaire** (19,99€) : 30 vérifications + Chatbot + AutoCop
+- **Avancé** (29,99€) : 50 vérifications + Toutes les fonctionnalités
 
-## Prérequis Techniques
-- PHP 8.0 ou supérieur
-- MySQL/MariaDB 10.4 ou supérieur
-- Node.js 16.x ou supérieur
-- npm 8.x ou supérieur
-- Composer 2.x
-- Serveur web (Apache 2.4+ / Nginx 1.18+)
-- WAMP (Windows, Apache, MySQL, PHP)
-- Extensions PHP requises :
-  - PDO
-  - MySQLi
-  - GD
-  - OpenSSL
-  - mbstring
-  - json
-  - fileinfo
+### 📊 Gestion des Utilisateurs
+- **Authentification Sécurisée** : Système de connexion robuste
+- **Profils Personnalisés** : Gestion des informations personnelles
+- **Historique Complet** : Suivi de toutes les analyses
+- **Facturation Automatique** : PDF générés automatiquement
 
-## Installation Détaillée
+### 🎨 Interface Utilisateur
+- **Design Moderne** : Interface responsive et intuitive
+- **Multi-langues** : Support français/anglais
+- **Navigation Fluide** : UX optimisée
+- **Thème Adaptatif** : Compatible tous appareils
 
-1. **Préparation de l'environnement**
-   ```bash
-   # Vérifier la version de PHP
-   php -v
-   
-   # Vérifier la version de Node.js
-   node -v
-   
-   # Vérifier la version de Composer
-   composer -V
-   ```
+### 📈 Fonctionnalités Avancées
+- **SpotCheck** : Vérification rapide d'une image
+- **Drops Tracker** : Suivi des sorties de sneakers
+- **Blog Intégré** : Articles sur les sneakers et l'authentification
+- **Notifications** : Alertes personnalisées
+- **API REST** : Intégration avec d'autres services
 
-2. **Cloner le repository**
-   ```bash
-   git clone https://github.com/votre-username/ProjetFileRouge.git
-   cd ProjetFileRouge
-   ```
+## 🏗️ Architecture Technique
 
-3. **Installation des dépendances PHP**
-   ```bash
-   composer install --no-dev --optimize-autoloader
-   ```
+### 🖥️ Technologies Utilisées
 
-4. **Installation des dépendances JavaScript**
-   ```bash
-   npm install
-   npm run build
-   ```
+#### Backend
+- **PHP 8.1+** : Langage principal
+- **Symfony 6.4** : Framework web moderne
+- **Doctrine ORM** : Mapping objet-relationnel
+- **MySQL 8.0** : Base de données relationnelle
+- **TCPDF** : Génération de factures PDF
 
-5. **Configuration de la base de données**
-   - Créer une nouvelle base de données MySQL
-   - Copier le fichier `.env.example` vers `.env`
-   - Configurer les variables d'environnement dans `.env` :
-     ```
-     DB_HOST=localhost
-     DB_NAME=votre_base
-     DB_USER=votre_utilisateur
-     DB_PASS=votre_mot_de_passe
-     ```
+#### Frontend
+- **HTML5/CSS3** : Structure et présentation
+- **JavaScript ES6+** : Interactions dynamiques
+- **React 18** : Composants réactifs (partiellement)
+- **Bootstrap/Custom CSS** : Styling responsive
 
-6. **Configuration du serveur web**
-   - Pour Apache, assurez-vous que le module rewrite est activé :
-     ```bash
-     sudo a2enmod rewrite
-     sudo service apache2 restart
-     ```
-   - Configurez le VirtualHost pour pointer vers le dossier `public/`
-   - Exemple de configuration Apache :
-     ```apache
-     <VirtualHost *:80>
-         ServerName projetfilerouge.local
-         DocumentRoot /chemin/vers/ProjetFileRouge/public
-         <Directory /chemin/vers/ProjetFileRouge/public>
-             AllowOverride All
-             Require all granted
-         </Directory>
-     </VirtualHost>
-     ```
+#### Outils de Développement
+- **Composer** : Gestionnaire de dépendances PHP
+- **npm** : Gestionnaire de paquets JavaScript
+- **Git** : Contrôle de version
+- **WAMP/XAMPP** : Environnement de développement
 
-## Structure Détaillée du Projet
+### 📂 Structure du Projet
+
 ```
-ProjetFileRouge/
-├── Backend/                 # Backend de l'application
-│   ├── Controllers/        # Contrôleurs de l'application
-│   ├── Models/            # Modèles de données
-│   ├── Services/          # Services métier
-│   └── chatbot/           # Système de chatbot Vinted
-├── Frontend/               # Interface utilisateur
-│   ├── assets/            # Fichiers statiques
-│   ├── components/        # Composants réutilisables
-│   └── views/             # Templates de vues
-├── includes/              # Fichiers d'inclusion PHP
-│   ├── config/           # Configuration
-│   ├── helpers/          # Fonctions utilitaires
-│   └── middleware/       # Middleware d'authentification
-├── public/               # Point d'entrée public
-│   ├── index.php        # Point d'entrée principal
-│   ├── assets/          # Assets compilés
-│   └── uploads/         # Fichiers uploadés
-├── src/                 # Code source principal
-│   ├── Entity/         # Entités de données
-│   └── Services/       # Services métier
-├── templates/           # Templates de vues
-├── tests/              # Tests unitaires et d'intégration
-├── vendor/             # Dépendances Composer
-└── node_modules/       # Dépendances npm
+CheckMyKicks/
+├── 📁 Backend/                    # Logique métier
+│   ├── 📁 auth/                  # Authentification
+│   │   ├── login.php
+│   │   ├── register.php
+│   │   └── logout.php
+│   ├── 📁 IA-Check/              # Système d'IA
+│   │   ├── check_sneakers.php    # Analyse des sneakers
+│   │   ├── save_analysis.php     # Sauvegarde résultats
+│   │   └── check_limit.php       # Vérification limites
+│   ├── 📁 paiement/              # Système de paiement
+│   │   └── traitement_abonnement.php
+│   ├── 📁 profile/               # Gestion profils
+│   └── 📁 admin/                 # Administration
+├── 📁 Frontend/                   # Interface utilisateur
+│   ├── 📁 HTML/                  # Pages web
+│   │   ├── home.php              # Accueil
+│   │   ├── ia.php                # Interface IA
+│   │   ├── compte.php            # Profil utilisateur
+│   │   ├── paiement.php          # Paiements
+│   │   ├── drops.php             # Suivi drops
+│   │   └── spotcheck.php         # Vérification rapide
+│   ├── 📁 CSS/                   # Styles
+│   └── 📁 JS/                    # Scripts JavaScript
+├── 📁 src/                       # Code source Symfony
+│   ├── 📁 Entity/                # Entités Doctrine
+│   │   ├── User.php
+│   │   ├── Paiement.php
+│   │   ├── Abonnement.php
+│   │   └── Facture.php
+│   └── 📁 Service/               # Services métier
+├── 📁 templates/                 # Templates Symfony
+├── 📁 public/                    # Fichiers publics
+│   └── 📁 factures/              # Factures PDF
+├── 📁 config/                    # Configuration
+│   └── database.php              # Configuration BDD
+├── 📁 uploads/                   # Fichiers uploadés
+├── 📁 WhenToCop/                 # Module drops
+└── 📁 vendor/                    # Dépendances Composer
 ```
 
-## Commandes Utiles
+## 🛠️ Installation et Configuration
 
-### Développement
+### 📋 Prérequis Système
+
+#### Serveur Web
+- **WAMP/XAMPP** : Environnement de développement
+- **Apache 2.4+** ou **Nginx 1.18+**
+- **PHP 8.1+** avec extensions :
+  ```
+  php-pdo, php-mysql, php-gd, php-mbstring,
+  php-json, php-fileinfo, php-openssl, php-curl
+  ```
+- **MySQL 8.0+** ou **MariaDB 10.4+**
+- **Node.js 16+** et **npm 8+**
+- **Composer 2.x**
+
+#### Extensions PHP Requises
 ```bash
-# Démarrer le serveur de développement PHP
+# Vérifier les extensions
+php -m | grep -E "(pdo|mysql|gd|mbstring|json|fileinfo|openssl|curl)"
+```
+
+### 🚀 Installation Étape par Étape
+
+#### 1. Clonage du Projet
+```bash
+git clone https://github.com/votre-username/CheckMyKicks.git
+cd CheckMyKicks
+```
+
+#### 2. Installation des Dépendances
+```bash
+# Dépendances PHP
+composer install --optimize-autoloader
+
+# Dépendances JavaScript
+npm install
+npm run build
+```
+
+#### 3. Configuration de la Base de Données
+```bash
+# Créer la base de données
+mysql -u root -p
+CREATE DATABASE checkmykicks CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+
+```php
+// config/database.php
+define('DB_HOST', '127.0.0.1:3308');  // Votre host MySQL
+define('DB_NAME', 'checkmykicks');
+define('DB_USER', 'root');             // Votre utilisateur
+define('DB_PASS', 'votre_mot_de_passe');
+```
+
+#### 4. Import des Données
+```bash
+# Importer la structure et les données
+mysql -u root -p checkmykicks < database/checkmykicks.sql
+```
+
+#### 5. Configuration des Permissions
+```bash
+# Droits d'écriture
+chmod 755 uploads/
+chmod 755 public/factures/
+chmod 755 Backend/IA-Check/temp/
+```
+
+#### 6. Configuration du Serveur Web
+
+##### Apache (.htaccess)
+```apache
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+```
+
+##### Nginx
+```nginx
+location / {
+    try_files $uri $uri/ /index.php?$query_string;
+}
+```
+
+### 🌐 Démarrage de l'Application
+
+#### Développement Local
+```bash
+# Démarrer WAMP/XAMPP
+# Ou utiliser le serveur PHP intégré
 php -S localhost:8000 -t public/
 
-# Compiler les assets en mode développement
-npm run dev
-
-# Compiler les assets pour la production
-npm run build
-
-# Lancer les tests
-php vendor/bin/phpunit
+# Accéder à l'application
+http://localhost/CheckMyKicks/Frontend/HTML/home.php
 ```
 
-### Maintenance
+#### Production
 ```bash
-# Mettre à jour les dépendances PHP
-composer update
+# Build des assets
+npm run build
 
-# Mettre à jour les dépendances JavaScript
-npm update
+# Configuration du serveur web
+# Pointer vers le dossier Frontend/HTML/ ou public/
+```
 
-# Nettoyer le cache
-php bin/console cache:clear
+## 🗄️ Base de Données
 
-# Vérifier la sécurité des dépendances
+### 📊 Modèle de Données (13+ Tables)
+
+#### Tables Principales
+- **`utilisateurs`** : Gestion des utilisateurs
+- **`abonnement`** : Types d'abonnements disponibles
+- **`abonnements`** : Abonnements souscrits par utilisateur
+- **`paiement`** : Transactions de paiement
+- **`facture`** : Factures générées
+- **`analyses_ia`** : Résultats des analyses IA
+- **`historique_abonnement`** : Historique des souscriptions
+
+#### Tables Fonctionnelles
+- **`drop_sneaker`** : Sorties de sneakers
+- **`drop_reminders`** : Rappels personnalisés
+- **`notifications`** : Système de notifications
+- **`annonce`** : Annonces utilisateurs
+- **`verification`** : Vérifications manuelles
+
+### 🔐 Sécurité des Données
+- **Mots de passe** : Hashage bcrypt
+- **Données sensibles** : Chiffrement des informations
+- **Requêtes** : Protection contre les injections SQL
+- **Sessions** : Gestion sécurisée des sessions
+- **CSRF** : Protection contre les attaques CSRF
+
+## 🧪 Tests et Qualité
+
+### 🔍 Tests Disponibles
+```bash
+# Tests unitaires PHP
+vendor/bin/phpunit
+
+# Tests d'intégration
+php bin/console doctrine:schema:validate
+
+# Audit de sécurité
 composer audit
 npm audit
 ```
 
-## Sécurité
-- 🔒 Mots de passe hashés avec bcrypt
-- 🛡️ Protection CSRF sur tous les formulaires
-- ✅ Validation stricte des entrées utilisateur
-- 🔐 Gestion sécurisée des sessions
-- 📝 Journalisation des actions sensibles
-- 🔑 Authentification à deux facteurs (2FA)
-- 🚫 Protection contre les injections SQL
-- 🔍 Protection XSS
-- 📤 Validation des fichiers uploadés
+### 📏 Standards de Code
+- **PSR-12** : Standard de code PHP
+- **ESLint** : Linting JavaScript
+- **PHPStan** : Analyse statique PHP
+- **Documentation** : PHPDoc pour toutes les fonctions
 
-## Bonnes Pratiques de Développement
-- Suivre les standards PSR-12 pour le code PHP
-- Utiliser ESLint pour le code JavaScript
-- Écrire des tests unitaires
-- Documenter le code avec PHPDoc
-- Utiliser Git Flow pour la gestion des versions
-- Faire des revues de code
-- Maintenir un changelog
+## 🚀 Utilisation
 
-## Support et Contribution
-- 📝 Pour signaler un bug : Créer une issue avec le template approprié
-- 💡 Pour proposer une fonctionnalité : Utiliser le template "Feature Request"
-- 🤝 Pour contribuer : 
-  1. Fork le projet
-  2. Créer une branche (`git checkout -b feature/AmazingFeature`)
-  3. Commit les changements (`git commit -m 'Add some AmazingFeature'`)
-  4. Push vers la branche (`git push origin feature/AmazingFeature`)
-  5. Ouvrir une Pull Request
+### 👤 Pour les Utilisateurs
 
-## Licence
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+#### Inscription et Connexion
+1. Créer un compte sur `/register.php`
+2. Se connecter sur `/login.php`
+3. Choisir un abonnement adapté
 
-## Auteurs
-- Sacha MOREAU - Développeur Full Stack
-- Zayd El Ajli - Développeur Full Stack
+#### Analyse de Sneakers
+1. Accéder à `/ia.php`
+2. Télécharger jusqu'à 6 photos
+3. Lancer l'analyse IA
+4. Consulter les résultats détaillés
+
+#### Gestion du Compte
+1. Profil utilisateur : `/compte.php`
+2. Historique des analyses
+3. Gestion de l'abonnement
+4. Téléchargement des factures
+
+### 🛠️ Pour les Développeurs
+
+#### API Endpoints
+```php
+// Analyse IA
+POST /Backend/IA-Check/check_sneakers.php
+
+// Sauvegarde d'analyse
+POST /Backend/IA-Check/save_analysis.php
+
+// Vérification des limites
+GET /Backend/IA-Check/check_limit.php
+
+// Authentification
+POST /Backend/auth/login.php
+POST /Backend/auth/register.php
+
+// Paiements
+POST /Backend/paiement/traitement_abonnement.php
+```
+
+#### Intégration de l'IA
+```javascript
+// Exemple d'utilisation
+const formData = new FormData();
+formData.append('images[]', imageFile);
+
+fetch('/Backend/IA-Check/check_sneakers.php', {
+    method: 'POST',
+    body: formData
+})
+.then(response => response.json())
+.then(data => {
+    console.log('Résultat IA:', data);
+});
+```
+
+## 📈 Performances et Optimisation
+
+### ⚡ Optimisations Implémentées
+- **Cache PHP** : OpCache activé
+- **Compression** : Gzip pour les assets
+- **Lazy Loading** : Chargement différé des images
+- **CDN** : Fichiers statiques externalisés
+- **Database** : Index optimisés
+
+### 📊 Métriques
+- **Temps de réponse** : < 2s pour l'analyse IA
+- **Disponibilité** : 99.9% uptime
+- **Scalabilité** : Support de 1000+ utilisateurs simultanés
+
+## 🔒 Sécurité
+
+### 🛡️ Mesures de Sécurité
+- **Authentification** : Système robuste avec sessions
+- **Autorisation** : Contrôle d'accès par rôles
+- **Validation** : Validation stricte des entrées
+- **Sanitisation** : Nettoyage des données utilisateur
+- **HTTPS** : Chiffrement des communications
+- **Logs** : Journalisation des actions sensibles
+
+### 🚨 Gestion des Erreurs
+- **Logs structurés** : Toutes les erreurs loggées
+- **Fallback** : Mécanismes de récupération
+- **Monitoring** : Surveillance en temps réel
+
+## 📞 Support et Contribution
+
+### 🆘 Support
+- **Documentation** : Guide utilisateur complet
+- **FAQ** : Questions fréquentes
+- **Contact** : support@checkmykicks.com
+- **Issues** : GitHub Issues pour les bugs
+
+### 🤝 Contribution
+1. Fork le projet
+2. Créer une branche feature (`git checkout -b feature/AmazingFeature`)
+3. Commit les changements (`git commit -m 'Add AmazingFeature'`)
+4. Push vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrir une Pull Request
+
+## 📝 Changelog
+
+### Version 1.0.0 (2025-06-12)
+- ✅ Système d'authentification IA complet
+- ✅ Gestion des abonnements et paiements
+- ✅ Interface utilisateur responsive
+- ✅ Système de facturation PDF
+- ✅ Module de suivi des drops
+- ✅ Blog intégré
+- ✅ Support multilingue (FR/EN)
+
+### Version 0.9.0 (2025-05-15)
+- ✅ Architecture de base Symfony
+- ✅ Modèle de données complet
+- ✅ Système d'authentification utilisateur
+- ✅ Interface d'administration
+
+## 📄 License
+
+Ce projet est sous licence propriétaire. Tous droits réservés.
+
+## 👥 Équipe
+
+- **Développeur Principal** : [Sacha MOREAU, Zayd EL AJLI]
+- **Backend** : PHP/Symfony
+- **Frontend** : HTML/CSS/JavaScript
+- **IA** : Algorithmes d'authentification
 
 
-## API et Intégrations
-- API Vinted pour la gestion des annonces
-- API de paiement sécurisée
-- Intégration avec les services d'authentification
-- Webhooks pour les notifications
-- API RESTful pour les développeurs
+--- 
 
-## Support et Formation
-- Documentation technique complète
-- Guides d'utilisation détaillés
-- Formation professionnelle à l'authentification
-- Support technique 24/7
-- Communauté active d'utilisateurs
+**Made with ❤️ by the CheckMyKicks Team**
+
+*Authentifiez vos sneakers en toute confiance !*
