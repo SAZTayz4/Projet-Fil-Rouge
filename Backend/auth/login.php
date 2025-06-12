@@ -3,54 +3,13 @@ session_start();
 require_once __DIR__ . '/../config/database.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-<<<<<<< HEAD
-    $email = trim($_POST['email'] ?? '');
-=======
     $email = $_POST['email'] ?? '';
->>>>>>> 634ce6e29b4a5095cb42ddfd52b8126da5340ac4
     $password = $_POST['password'] ?? '';
 
     if (empty($email) || empty($password)) {
         $_SESSION['error'] = 'Tous les champs sont requis.';
     } else {
         try {
-<<<<<<< HEAD
-            // Vérification de la connexion à la base de données
-            if (!$pdo) {
-                throw new PDOException("Erreur de connexion à la base de données");
-            }
-
-            // Rechercher l'utilisateur par email
-            $stmt = $pdo->prepare("SELECT * FROM utilisateurs WHERE email = :email");
-            $stmt->bindParam(':email', $email, PDO::PARAM_STR);
-            $stmt->execute();
-            
-            // Vérification du résultat de la requête
-            if ($stmt->rowCount() === 0) {
-                $_SESSION['error'] = 'Aucun utilisateur trouvé avec cet email.';
-            } else {
-                $user = $stmt->fetch(PDO::FETCH_ASSOC);
-                
-                if ($user && password_verify($password, $user['motDePasse'])) {
-                    $_SESSION['utilisateur_id'] = $user['id'];
-                    $_SESSION['user_role'] = $user['role'];
-                    $_SESSION['success'] = 'Connexion réussie !';
-                    
-                    // Mise à jour de last_login
-                    $updateStmt = $pdo->prepare("UPDATE utilisateurs SET last_login = NOW() WHERE id = :id");
-                    $updateStmt->execute(['id' => $user['id']]);
-                    
-                    header('Location: /ProjetFileRouge/Frontend/HTML/home.php');
-                    exit;
-                } else {
-                    $_SESSION['error'] = 'Mot de passe incorrect.';
-                }
-            }
-        } catch (PDOException $e) {
-            $_SESSION['error'] = 'Erreur de connexion : ' . $e->getMessage();
-            // Pour le débogage, vous pouvez décommenter la ligne suivante
-            // error_log("Erreur de connexion : " . $e->getMessage());
-=======
             // Rechercher l'utilisateur par email
             $stmt = $pdo->prepare("SELECT * FROM utilisateurs WHERE email = ?");
             $stmt->execute([$email]);
@@ -67,7 +26,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         } catch (PDOException $e) {
             $_SESSION['error'] = 'Une erreur est survenue lors de la connexion : ' . $e->getMessage();
->>>>>>> 634ce6e29b4a5095cb42ddfd52b8126da5340ac4
         }
     }
 }
